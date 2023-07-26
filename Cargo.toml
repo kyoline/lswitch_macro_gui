@@ -1,0 +1,13 @@
+[package]
+name = "lswitch_macro_gui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.22.0"
+eframe = { version = "0.22.0", features = ["persistence", "default_fonts"] }
+env_logger = "0.10.0"
+serde = { version = "1", features = ["derive"] }
+rand = "0.8.5"
